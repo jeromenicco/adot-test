@@ -1,0 +1,79 @@
+.modal-overlay {
+    background: rgb(0 0 0 / 44%);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container {
+    height: fit-content;
+    width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.form-container form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form-container input {
+    padding: 10px;
+    background: #f3f3f3;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+.form-row input {
+    width: 95px;
+}
+.form-column {
+    display: flex;
+    flex-direction: column;
+}
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+.toggle-container p {
+    margin-left: 15px;
+}
+.form-buttons {
+    margin-top: 50px;
+    text-align: end;
+}
+.cancel-btn {
+    text-transform: uppercase;
+    border: none;
+    color: gray;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.cancel-btn:hover {
+    color: white;
+    background: lightgray;
+}
+.confirm-btn {
+    text-transform: uppercase;
+    border: none;
+    color: #65e093;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.confirm-btn:hover {
+    color: white;
+    background: #65e093;
+}
